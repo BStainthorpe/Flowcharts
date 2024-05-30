@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T16:28:33.464Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="_WYZvWpbCaa-y1ZWaM4A" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T16:29:08.299Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="PPOyBheNqamFQ0zaOwxM" version="24.4.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="989" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -195,6 +195,17 @@
         <mxCell id="-rypncLCnnnrmYgA9d1G-43" value="Vlithium &amp;lt;= V_lithium_topUp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-rypncLCnnnrmYgA9d1G-42" vertex="1" connectable="0">
           <mxGeometry x="-0.0899" relative="1" as="geometry">
             <mxPoint x="-98" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3RBOjfxGh0oXWLlJNgli-1" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Vdummy &amp;gt;= Vdummy_ready &amp;amp;&amp;amp;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Vlithium &amp;gt;= Vdummy_useBoost&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" target="-rypncLCnnnrmYgA9d1G-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="243" y="380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="335" />
+              <mxPoint x="90" y="600" />
+            </Array>
+            <mxPoint x="110" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
