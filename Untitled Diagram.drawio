@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T09:35:18.563Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="1FHzCQb6TCfcY60zDSDn" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T09:37:41.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="CZHNlYgwG3nh94J1DdUs" version="24.4.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -192,7 +192,7 @@
             <mxPoint x="564" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-rypncLCnnnrmYgA9d1G-43" value="Vlithium &amp;lt;= Vlithium_topUp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-rypncLCnnnrmYgA9d1G-42">
+        <mxCell id="-rypncLCnnnrmYgA9d1G-43" value="Vlithium &amp;lt;= V_lithium_topUp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-rypncLCnnnrmYgA9d1G-42">
           <mxGeometry x="-0.0899" relative="1" as="geometry">
             <mxPoint x="-98" y="-10" as="offset" />
           </mxGeometry>
