@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-03T08:36:14.722Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="01TkUFpKWU7GO5cFmkIM" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-03T08:39:39.294Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Enuhnvq-a02yo9DVIQ8e" version="24.4.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="&lt;b&gt;State 2 Prepare:&lt;/b&gt;&lt;div&gt;Enable discharge boost, dummy load on, wait for Vdummy to rise&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="172.5" y="300" width="117.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-rypncLCnnnrmYgA9d1G-2" value="&lt;b&gt;State 3 Bypass:&lt;/b&gt;&lt;div&gt;Unused, skip to state 4&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="-rypncLCnnnrmYgA9d1G-2" value="&lt;b&gt;State 3 Direct:&lt;/b&gt;&lt;div&gt;Unused, skip to state 4&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="172.5" y="430" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-rypncLCnnnrmYgA9d1G-3" value="&lt;b&gt;State 4 B/B CC:&lt;/b&gt;&lt;div&gt;Output enable, enable charge buck, regulate Vdummy to V_NiCd_target_charging&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -108,9 +108,9 @@
             <mxPoint x="488" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-rypncLCnnnrmYgA9d1G-24" value="Vdummy &amp;lt;= Vdummy_emergency ||&lt;div&gt;falling edge || discharge current detected&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-rypncLCnnnrmYgA9d1G-22" vertex="1" connectable="0">
+        <mxCell id="-rypncLCnnnrmYgA9d1G-24" value="Vdummy &amp;lt;= Vdummy_emergency ||&lt;div&gt;falling_Edge || discharge_Current_Detected&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-rypncLCnnnrmYgA9d1G-22" vertex="1" connectable="0">
           <mxGeometry x="-0.0899" relative="1" as="geometry">
-            <mxPoint x="13" y="36" as="offset" />
+            <mxPoint x="13" y="46" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-rypncLCnnnrmYgA9d1G-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=none;endFill=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-rypncLCnnnrmYgA9d1G-8" target="-rypncLCnnnrmYgA9d1G-12" edge="1">
@@ -156,7 +156,7 @@
             <mxPoint x="413" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-rypncLCnnnrmYgA9d1G-34" value="Vdummy &amp;gt;= Vdummy_mainsBack" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-rypncLCnnnrmYgA9d1G-33" vertex="1" connectable="0">
+        <mxCell id="-rypncLCnnnrmYgA9d1G-34" value="Vdummy &amp;gt;= Vdummy_mainsBack ||&lt;div&gt;charge_Current_Detected&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-rypncLCnnnrmYgA9d1G-33" vertex="1" connectable="0">
           <mxGeometry x="-0.0899" relative="1" as="geometry">
             <mxPoint x="92" y="2" as="offset" />
           </mxGeometry>
@@ -168,9 +168,9 @@
             <mxPoint x="488" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-rypncLCnnnrmYgA9d1G-36" value="Vdummy &amp;gt;= Vdummy_recover&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-rypncLCnnnrmYgA9d1G-35" vertex="1" connectable="0">
+        <mxCell id="-rypncLCnnnrmYgA9d1G-36" value="Vdummy &amp;gt;= Vdummy_recover ||&amp;nbsp;&lt;div&gt;rising_Edge&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-rypncLCnnnrmYgA9d1G-35" vertex="1" connectable="0">
           <mxGeometry x="-0.0899" relative="1" as="geometry">
-            <mxPoint x="7" y="-6" as="offset" />
+            <mxPoint x="87" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-rypncLCnnnrmYgA9d1G-37" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-rypncLCnnnrmYgA9d1G-6" target="-rypncLCnnnrmYgA9d1G-8" edge="1">
