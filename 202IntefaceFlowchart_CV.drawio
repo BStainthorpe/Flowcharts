@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T09:11:31.079Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="VqFgaUHQgNNGRw-nbS5W" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T09:11:49.323Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="IERMGu-9vHwYI5J7iyDF" version="24.4.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,7 +63,7 @@
             <mxPoint x="526.02" y="566" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T28qBVAI4pB53wo0v3uB-1" value="timer_completedCV == 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-rypncLCnnnrmYgA9d1G-7">
+        <mxCell id="T28qBVAI4pB53wo0v3uB-1" value="timer_completedCV" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-rypncLCnnnrmYgA9d1G-7">
           <mxGeometry x="-0.0417" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
