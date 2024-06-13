@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T09:08:13.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Gox9m2QTnpsc1Ajej9KG" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T09:08:39.581Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="E-Sg2XGiB8qicrNRcUth" version="24.4.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="683" dy="351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="330" dy="170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -135,11 +135,11 @@
         </mxCell>
         <mxCell id="-rypncLCnnnrmYgA9d1G-32" value="power provided to boot cap" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-rypncLCnnnrmYgA9d1G-31" vertex="1" connectable="0">
           <mxGeometry x="0.0261" y="-4" relative="1" as="geometry">
-            <mxPoint x="4" y="-26" as="offset" />
+            <mxPoint x="6" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-rypncLCnnnrmYgA9d1G-25" value="&lt;b&gt;State 9 Off:&lt;/b&gt;&lt;div&gt;Everything off, uC dies&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="182" y="60" width="101" height="60" as="geometry" />
+          <mxGeometry x="182" y="50" width="101" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-rypncLCnnnrmYgA9d1G-26" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-rypncLCnnnrmYgA9d1G-20" target="-rypncLCnnnrmYgA9d1G-25" edge="1">
           <mxGeometry x="0.045" y="20" relative="1" as="geometry">
@@ -147,9 +147,8 @@
             <mxPoint x="358" y="170" as="sourcePoint" />
             <mxPoint x="413" y="110" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="478" y="30" />
-              <mxPoint x="320" y="30" />
-              <mxPoint x="320" y="90" />
+              <mxPoint x="320" y="50" />
+              <mxPoint x="320" y="80" />
             </Array>
           </mxGeometry>
         </mxCell>
