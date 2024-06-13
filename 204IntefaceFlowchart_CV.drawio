@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T09:32:09.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="GpONgWf3Lj-SBTLtrs4z" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T09:32:28.684Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="psZF2NbQHNkxyMivSUUv" version="24.5.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2336" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -205,9 +205,9 @@
         <mxCell id="v2d9FCQcoDtDcaZlf5Bg-2" value="&lt;b&gt;State 1 Boot:&lt;/b&gt;&lt;div&gt;Waiting for Qsw on, once booted enable dummy load, regulate to V_NiCd_target_charging&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="144.25" y="174" width="162.5" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="v2d9FCQcoDtDcaZlf5Bg-3" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Vdummy &amp;gt;= Vdummy_useBoost&lt;/span&gt;" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v2d9FCQcoDtDcaZlf5Bg-6" target="v2d9FCQcoDtDcaZlf5Bg-7">
-          <mxGeometry x="0.047" y="19" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
+        <mxCell id="v2d9FCQcoDtDcaZlf5Bg-3" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v2d9FCQcoDtDcaZlf5Bg-6" target="v2d9FCQcoDtDcaZlf5Bg-7">
+          <mxGeometry x="-0.0152" y="19" relative="1" as="geometry">
+            <mxPoint as="offset" />
             <mxPoint x="475.5" y="366" as="sourcePoint" />
             <mxPoint x="475.5344827586207" y="406.02758620689656" as="targetPoint" />
           </mxGeometry>
@@ -219,7 +219,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v2d9FCQcoDtDcaZlf5Bg-6" value="&lt;b&gt;State 3 Direct:&lt;/b&gt;&lt;div&gt;Output On, Bypass On, dummy load off&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="v2d9FCQcoDtDcaZlf5Bg-6" value="&lt;b&gt;State 3 Direct:&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Unused, skip to state 4&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="165.5" y="456" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="v2d9FCQcoDtDcaZlf5Bg-7" value="&lt;b&gt;State 4 B/B CC:&lt;/b&gt;&lt;div&gt;Qsw on, Bypass off, dummy load off, enable charge boost, regulate Vdummy to V_NiCd_target_charging then V_NiCd_target_charged&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
