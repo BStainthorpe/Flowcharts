@@ -98,8 +98,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-rypncLCnnnrmYgA9d1G-20" value="&lt;b&gt;State 8 Emergency:&lt;/b&gt;&lt;div&gt;Qsw on, Enable discharge Buck, regulate Vdummy to V_NiCd_target_discharging&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="485.02" y="50" width="151" height="100" as="geometry" />
+        <mxCell id="-rypncLCnnnrmYgA9d1G-20" value="&lt;b&gt;State 8 Emergency:&lt;/b&gt;&lt;div&gt;Qsw on, Enable discharge Buck, regulate Vdummy to&lt;/div&gt;&lt;div&gt;&amp;nbsp;V_NiCd_target_discharging&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="478.03" y="40" width="164.98" height="120" as="geometry" />
         </mxCell>
         <mxCell id="-rypncLCnnnrmYgA9d1G-22" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-rypncLCnnnrmYgA9d1G-12" target="-rypncLCnnnrmYgA9d1G-20" edge="1">
           <mxGeometry x="0.045" y="20" relative="1" as="geometry">
@@ -108,7 +108,7 @@
             <mxPoint x="481" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-rypncLCnnnrmYgA9d1G-24" value="Vdummy &amp;lt;= Vdummy_emergency ||&lt;div&gt;falling_Edge || discharge_Current_Detected&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-rypncLCnnnrmYgA9d1G-22" vertex="1" connectable="0">
+        <mxCell id="-rypncLCnnnrmYgA9d1G-24" value="Vdummy &amp;lt;= Vdummy_emergency ||&lt;div&gt;falling_Edge || discharge_Current_Detected,&lt;/div&gt;&lt;div&gt;runBB_now();&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-rypncLCnnnrmYgA9d1G-22" vertex="1" connectable="0">
           <mxGeometry x="-0.0899" relative="1" as="geometry">
             <mxPoint x="21" y="46" as="offset" />
           </mxGeometry>
