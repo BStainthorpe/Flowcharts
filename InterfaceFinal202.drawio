@@ -30,7 +30,7 @@
         <mxCell id="-rypncLCnnnrmYgA9d1G-4" value="&lt;b&gt;State 5 B/B CV:&lt;/b&gt;&lt;div&gt;set charge boost to constant output voltage mode, regulate to V_Lithium_charged, enable dummy load, regulate to V_NiCd_target_charged&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="456.02" y="526" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="-rypncLCnnnrmYgA9d1G-5" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Vlithium &amp;gt;= V_Lithium_enterCV&lt;/span&gt;" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-rypncLCnnnrmYgA9d1G-3" target="-rypncLCnnnrmYgA9d1G-4" edge="1">
+        <mxCell id="-rypncLCnnnrmYgA9d1G-5" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Vlithium &amp;gt;= V_Lithium_charged&lt;/span&gt;" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-rypncLCnnnrmYgA9d1G-3" target="-rypncLCnnnrmYgA9d1G-4" edge="1">
           <mxGeometry x="0.3019" y="-10" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
             <mxPoint x="235.5" y="536" as="sourcePoint" />
