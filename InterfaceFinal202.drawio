@@ -155,7 +155,7 @@
             <mxPoint x="495.52" y="136" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-rypncLCnnnrmYgA9d1G-34" value="Vdummy &amp;gt;= Vdummy_mainsBack ||&lt;div&gt;charge_Current_Detected after leaveDelay_ms&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-rypncLCnnnrmYgA9d1G-33" vertex="1" connectable="0">
+        <mxCell id="-rypncLCnnnrmYgA9d1G-34" value="Vdummy &amp;gt;= Vdummy_mainsBack ||&lt;div&gt;charge_Current_Detected after leaveEMDelay_ms&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-rypncLCnnnrmYgA9d1G-33" vertex="1" connectable="0">
           <mxGeometry x="-0.0899" relative="1" as="geometry">
             <mxPoint x="92" y="3" as="offset" />
           </mxGeometry>
