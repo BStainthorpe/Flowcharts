@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -24,7 +24,7 @@
         <mxCell id="-rypncLCnnnrmYgA9d1G-2" value="&lt;b&gt;State 3 Direct:&lt;/b&gt;&lt;div&gt;Short buck FETs for direct charging&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="158.25" y="350" width="134.5" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="-rypncLCnnnrmYgA9d1G-3" value="&lt;b&gt;State 4 B/B CC:&lt;/b&gt;&lt;div&gt;Enable charge boost, regulate dummy load to V_NiCd_target_charging then V_NiCd_target_charged once reached V_Lithium_enterCV&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="-rypncLCnnnrmYgA9d1G-3" value="&lt;b&gt;State 4 B/B CC:&lt;/b&gt;&lt;div&gt;Enable charge boost, regulate dummy load to V_NiCd_target_charging then V_NiCd_target_charged once Vlithium reached V_Lithium_enterCV&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="140.5" y="571" width="170" height="144" as="geometry" />
         </mxCell>
         <mxCell id="-rypncLCnnnrmYgA9d1G-4" value="&lt;b&gt;State 5 B/B CV:&lt;/b&gt;&lt;div&gt;set charge boost to constant output voltage mode, regulate to V_Lithium_charged, regulate dummy load to V_NiCd_target_charged&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -110,7 +110,7 @@
         </mxCell>
         <mxCell id="-rypncLCnnnrmYgA9d1G-24" value="Vdummy &amp;lt;= Vdummy_emergency ||&lt;div&gt;falling_Edge || discharge_Current_Detected,&lt;/div&gt;&lt;div&gt;runBB_now();&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-rypncLCnnnrmYgA9d1G-22" vertex="1" connectable="0">
           <mxGeometry x="-0.0899" relative="1" as="geometry">
-            <mxPoint x="12" y="46" as="offset" />
+            <mxPoint x="18" y="46" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-rypncLCnnnrmYgA9d1G-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=none;endFill=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-rypncLCnnnrmYgA9d1G-8" target="-rypncLCnnnrmYgA9d1G-12" edge="1">
